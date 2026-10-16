@@ -2,7 +2,7 @@
 一橋地理対策 AI 時事論述フラッシュカードアプリ
 =================================================
 * UI    : Streamlit
-* LLM   : Hugging Face InferenceClient (Qwen2.5-7B-Instruct)
+* LLM   : Hugging Face InferenceClient (Llama-3.2-3B-Instruct)
 * 環境変数: プロジェクト直下の .env のみを明示的に読み込む
 """
 
@@ -36,7 +36,7 @@ from huggingface_hub import InferenceClient
 # ---------------------------------------------------------------------------
 # 定数
 # ---------------------------------------------------------------------------
-MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
+MODEL_ID = "meta-llama/Llama-3.2-3B-Instruct"
 
 SEED_CATEGORIES: list[str] = [
     "資源・エネルギー（石油・天然ガス・再生可能エネルギー・資源ナショナリズム）",
