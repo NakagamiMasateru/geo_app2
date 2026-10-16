@@ -36,7 +36,7 @@ from huggingface_hub import InferenceClient
 # ---------------------------------------------------------------------------
 # 定数
 # ---------------------------------------------------------------------------
-MODEL_ID = "meta-llama/llama-3.3-70b-instruct:free"
+MODEL_ID = "meta-llama/Llama-3.1-8B-Instruct"
 SEED_CATEGORIES: list[str] = [
     "資源・エネルギー（石油・天然ガス・再生可能エネルギー・資源ナショナリズム）",
     "食料・農業（食料安全保障・フードマイレージ・農地争奪・遺伝子組み換え）",
