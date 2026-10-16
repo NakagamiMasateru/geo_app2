@@ -288,7 +288,7 @@ def main():
     <div class="footer-note">
         このアプリは学習支援目的で作成されています。生成された問題・解答は AI による自動生成であり、
         実際の一橋大学入試問題とは異なります。<br>
-        使用モデル: Qwen/Qwen2.5-7B-Instruct（Hugging Face Inference API）
+        使用モデル: meta-llama/Llama-3.2-3B-Instruct（Hugging Face Inference API）
     </div>
     """, unsafe_allow_html=True)
 
